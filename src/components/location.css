@@ -1,0 +1,17 @@
+.parent-grid_1{
+    background: #725f69;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height:550px;
+  width:95%;
+  margin-left: 35px;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  font-size: 25px;
+}

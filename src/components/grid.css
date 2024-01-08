@@ -1,0 +1,113 @@
+.image-box {
+  width: 305px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 27px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  /* max-width: 0%; */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.view-button {
+  background-color: #7D2CEB;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 45px;
+
+}
+
+.view-button:hover {
+  background-color: #A24BF7;
+}
+
+.parent-grid {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 150px;
+
+}
+
+/* searchBar.css */
+
+.glass-search-bar {
+  display: flex;
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  background: rgba(255, 255, 255, 0.2);
+  /* Semi-transparent background for the glass effect */
+  backdrop-filter: blur(10px);
+  /* Apply blur effect to the background */
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 490px;
+  margin-left: 500px;
+}
+
+.search-input {
+  border: none;
+  padding: 10px;
+  background: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  outline: none;
+  text-align: left; 
+  /* Center text horizontally within the input */
+  width: 100%;
+  /* Take up the full width of the container */
+}
+
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-top: -4px;
+}
+
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px
+}
+
+
+
+
+/* Additional styling can be added as needed */
